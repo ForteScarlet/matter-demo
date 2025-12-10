@@ -6,6 +6,7 @@
       <div class="nav-links">
         <router-link to="/" class="nav-link">Home</router-link>
         <router-link to="/blog" class="nav-link">Blog</router-link>
+        <router-link to="/games" class="nav-link">Games</router-link>
         <router-link to="/search" class="nav-link">Search</router-link>
       </div>
 
