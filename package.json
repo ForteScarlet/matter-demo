@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/matter-demo/",
     "preview": "vite preview --port 4173",
     "type-check": "tsc -p tsconfig.json --noEmit",
     "lint": "eslint . --ext .ts,.vue --fix"
