@@ -1,10 +1,11 @@
 <template>
   <nav class="navigation">
     <div class="nav-container">
-      <router-link to="/" class="logo">MB</router-link>
+      <router-link to="/" class="logo">FS</router-link>
       
       <div class="nav-links">
         <router-link to="/" class="nav-link">Home</router-link>
+        <router-link to="/blog" class="nav-link">Blog</router-link>
         <router-link to="/search" class="nav-link">Search</router-link>
       </div>
 

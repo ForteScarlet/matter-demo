@@ -75,7 +75,7 @@ const formatDate = (date: string) => {
 };
 
 const goToPost = (id: string) => {
-  router.push(`/post/${id}`);
+  router.push(`/blog/${id}`);
 };
 </script>
 

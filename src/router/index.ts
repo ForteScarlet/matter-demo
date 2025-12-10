@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomePage from '../views/HomePage.vue';
+import HomePagePersonal from '../views/HomePagePersonal.vue';
+import BlogListPage from '../views/BlogListPage.vue';
 import PostDetail from '../views/PostDetail.vue';
 import SearchPage from '../views/SearchPage.vue';
 
@@ -9,10 +10,15 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomePage
+      component: HomePagePersonal
     },
     {
-      path: '/post/:id',
+      path: '/blog',
+      name: 'blog',
+      component: BlogListPage
+    },
+    {
+      path: '/blog/:id',
       name: 'post',
       component: PostDetail
     },

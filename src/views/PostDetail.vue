@@ -52,7 +52,7 @@ const formatDate = (date: string) => {
 };
 
 const goBack = () => {
-  router.push('/');
+  router.push('/blog');
 };
 </script>
 
